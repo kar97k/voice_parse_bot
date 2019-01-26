@@ -10,7 +10,6 @@ use experimental 'smartmatch';
 my $dir = shift @ARGV;
 #if directory not specified, current directory will be used
 unless (defined $dir) {$dir=cwd;}
-say $dir;
 my @valid_formats = qw(WAV OPUS);
 my @valid_files_array;
 my $tag = "FileType";
