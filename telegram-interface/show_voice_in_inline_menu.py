@@ -19,7 +19,7 @@ def empty_query(query):
         )
         r2 = types.InlineQueryResultCachedVoice(
                 id='32',
-                voice_file_id="AwADAgADTwIAAgQyYUrPbCec1P3QtgI", #AwADAgADTwIAAgQyYUrPbCec1P3QtgI
+                voice_file_id="AwADAgADTwIAAgQyYUrPbCec1P3QtgI",
                 parse_mode='Markdown',
                 title="Результат 2:"
         )
