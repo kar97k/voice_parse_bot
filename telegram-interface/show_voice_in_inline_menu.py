@@ -35,18 +35,3 @@ def empty_query(query):
 
 if __name__ == '__main__':
      bot.polling(none_stop=True)
-
-'''
-num1=2
-num2=2
-m_sum=5
-
-r_sum = types.InlineQueryResultArticle(
-	id='1', title="Сумма",
-	# Описание отображается в подсказке,
-	# message_text - то, что будет отправлено в виде сообщения
-	description="Результат: {!s}".format(m_sum),
-    input_message_content=types.InputTextMessageContent(
-	message_text="{!s} + {!s} = {!s}".format(num1, num2, m_sum))
-	)
-'''
